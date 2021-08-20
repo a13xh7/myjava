@@ -1,6 +1,6 @@
 package m1_base;
 
-public class L5_BooleanAndLogic {
+public class L5_BooleanLogic {
     public static void main(String[] args) {
         byte value1 = 0, value2 = 1;
         boolean result;

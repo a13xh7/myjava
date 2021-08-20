@@ -2,7 +2,7 @@ package m1_base;
 
 import static java.lang.Math.pow;
 
-public class L3_MathAndIncrementDecrement {
+public class L3_Math_Increment_Decrement {
 
     /* Math.pow() - возведение числа в степень
      * 1-ый аргумент - число, которое возводим в степень,

@@ -2,7 +2,7 @@ package m1_base;
 
 import java.util.Scanner;
 
-public class L7_Conditions {
+public class L7_If_Switch {
 
     public static void main(String[] args) {
         int a = 1, b = 2;

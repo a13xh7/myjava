@@ -1,6 +1,6 @@
 package m1_base;
 
-public class L6_CastAndTypeComparation {
+public class L6_Cast_TypeComparation {
 
     public static void typeComparation() {
         boolean result1;

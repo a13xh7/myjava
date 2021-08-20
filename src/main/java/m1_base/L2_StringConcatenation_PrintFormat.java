@@ -1,6 +1,6 @@
 package m1_base;
 
-public class L2_StringConcatenationAndPrintFormat {
+public class L2_StringConcatenation_PrintFormat {
 
     public static void concatenation() {
         // 1 вариант.
@@ -23,13 +23,13 @@ public class L2_StringConcatenationAndPrintFormat {
         //%s: для вывода строковых значений
 
         // Форматирование строк с помощью метода format класса String
-        System.out.println(String.format("Это число %1$s", a));
+        System.out.println(String.format("Это число %s", a));
 
         // Метод printf() принадлежит классу PrintStream, который отвечает за вывод информации
         // и возвращает строку, отформатированую по заданным условиям
-        System.out.printf("Это число %1$s \n", a);
-        System.out.printf("Это числа %1$s и %2$s \n", b, c);
-        System.out.printf("Это числа наоборот %2$s и %1$s", b, c);
+        System.out.printf("Это число %s \n", a);
+        System.out.printf("Это числа %s и %s \n", b, c);
+        System.out.printf("Это числа наоборот %s и %s", b, c);
         // Форматирование вывода числа Пи
         System.out.printf("\n%1$+022.10f", Math.PI);
     }

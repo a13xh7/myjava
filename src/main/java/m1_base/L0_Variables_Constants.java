@@ -1,6 +1,6 @@
 package m1_base;
 
-public class L0_VariablesConstantsAssignmentAndOrder {
+public class L0_Variables_Constants {
 
     // Константа
     public static final int CONSTANT = 777;
@@ -50,6 +50,7 @@ public class L0_VariablesConstantsAssignmentAndOrder {
         a /= 6;         // 4
         a <<= 4;      // 64
         a >>= 2;      // 16
+
         System.out.println(a);  // 16
 
         /* Приоритет операций
