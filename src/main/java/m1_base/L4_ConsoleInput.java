@@ -1,4 +1,4 @@
-package base;
+package m1_base;
 
 import java.util.Scanner;
 

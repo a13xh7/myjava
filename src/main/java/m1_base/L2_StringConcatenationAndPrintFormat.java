@@ -1,4 +1,4 @@
-package base;
+package m1_base;
 
 public class L2_StringConcatenationAndPrintFormat {
 

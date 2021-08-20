@@ -1,4 +1,4 @@
-package base;
+package m1_base;
 
 public class L5_BooleanAndLogic {
     public static void main(String[] args) {
