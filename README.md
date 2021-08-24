@@ -3,6 +3,7 @@ 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
 
 To do
 
+= () ->
 
 Date / time - https://www.examclouds.com/java/java-core-russian/klass-localdate
 
@@ -16,8 +17,5 @@ https://www.examclouds.com/ru/java/java-core-russian/lesson20
 создание  аннотаций
 
 java 8 
-
-collections - https://metanit.com/java/tutorial/5.1.php
-
 
 class loader - http://java-online.ru/java-classloader.xhtml
