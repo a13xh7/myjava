@@ -1,5 +1,13 @@
 package m4_object;
 
+import java.util.Objects;
+
+/*
+Переопределяя equals нужно переопределять и hashCode
+Objects.hashCode(1); - преобразование любого объекта в int
+
+В hashMap например нсачал идет сравнение по hashCode
+ */
 class Car {
     // создаем поля
     private int speed;
@@ -40,15 +48,17 @@ class Car {
     // мы можем задать свой алгоритм определения хэш-кода объекта:
     @Override
     public int hashCode(){
+        //Objects.hashCode(1);
         return 10 * color.hashCode() + 20456;
     }
 
-    // Метод equals сравнивает два объекта на равенство
+    /* Метод equals сравнивает два объекта на равенство
+    Реализация по умолчанию метода equals() в классе java.lang.Object сравнивает ссылки на адреса в памяти, которые
+    хранят переменные, и возвращает true только в том случае, если адреса совпадают, другими словами переменные ссылаются на один и тот же объект.
+     */
     @Override
     public boolean equals(Object obj){
-
         if (!(obj instanceof Car)) return false;
-
         Car p = (Car)obj;
         return this.color.equals(p.color);
     }

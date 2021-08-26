@@ -24,10 +24,12 @@ public class L2_ArrayListIteration {
             System.out.println(integer);
         }
         // то же самое действие, но через оптимизированный итератор под cписки
+        // предыдущий, следующий элемент
         ListIterator<Integer> listIterator = arrayList.listIterator();
 
         while (listIterator.hasNext()) {
             Integer integer = listIterator.next();
+            //listIterator.previous();
             System.out.println(integer);
         }
     }

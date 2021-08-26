@@ -3,10 +3,17 @@ package m8_collections;
 import java.util.LinkedList;
 
 /*
-Обобщенный класс LinkedList<E> представляет структуру данных в виде связанного списка. Он наследуется от класса
-AbstractSequentialList и реализует интерфейсы List, Dequeue и Queue. То есть он соединяет функциональность работы со списком и фукциональность очереди.
+Обобщенный класс LinkedList<E> представляет структуру данных в виде связанного списка.
+Он соединяет функциональность работы со списком и фукциональность очереди.
 
-LinkedList содержит все те методы, которые определены в интерфейсах List, Queue, Deque. Некоторые из них:
+Каждый элемент хранит ссылки на предыдущий и следующий элемент.
+
+Нельзя достать элемент по индексу или значению.
+
+It is best to use a LinkedList when:
+You only use the list by looping through it instead of accessing random items
+You frequently need to add and remove items from the beginning, middle or end of the
+list
 */
 
 public class L4_LinkedList {
@@ -26,7 +33,6 @@ public class L4_LinkedList {
         states.set(1, "Portugal");
 
         for(String state : states){
-
             System.out.println(state);
         }
 
