@@ -9,8 +9,8 @@ import java.nio.file.Files;
  */
 public class SimpleCopyFile {
     public static void main(String[] args) {
-        File sourceFile = new File("D:\\Java Professional Course_video\\004_Basic_IO_NIO\\004_Samples\\sourceFile.txt");
-        File targetFile = new File("D:\\Java Professional Course_video\\004_Basic_IO_NIO\\004_Samples\\targetFile.txt");
+        File sourceFile = new File("D:\\sourceFile.txt");
+        File targetFile = new File("D:\\targetFile.txt");
 
         try {
             Files.copy(sourceFile.toPath(), targetFile.toPath());
